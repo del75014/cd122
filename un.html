@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Source HTML </title>
+<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+</head>
+<body>
+
+<form action="#" method="post">
+<fieldset>
+<legend>selection</legend>
+	<label for="mailto">Envoyez un message</label>
+	<select name="mailto-name" id="mailto">
+		<option>ERIC</option>
+		<option>FABIEN</option>
+		<option>LAURA</option>
+		<option selected="selected">OLIVIERA</option>
+	</select>
+</fieldset>
+<fieldset>
+<legend>Autre</legend>
+			<label for="email">Donnez votre adresse mail ?</label>
+			<input type="email" name="email" value="Mailquelquun" id="email" size="60" /><br />
+				<label for="user-name">Donnez votre adresse mail ?</label>
+				<input type="text" size="40" name="user_name" value="moi" id="user-name" /><br />
+				<label for="pass">Donnez votre mot de passe ?</label>
+				<input type="text" size="40" name="pass" value="moi" id="pass" size="10" /><br />
+				
+				
+			
+				
+</fieldset>
+<fieldset>
+<legend>radio</legend>
+	<label for="rad-1">Rad</label>
+	<input type="checkbox" name="chk-1" id="chk-1" value="item1" />
+	<input type="checkbox" name="chk-1" id="chk-2" value="item2" />
+	<input type="checkbox" name="chk-1" id="chk-3" value="item3" checked="checked" />
+	
+	<input type="button" name="but-test" id="but-test" value="Fun code client">
+				
+				
+			
+				
+</fieldset>
+<fieldset>
+<legend>Choix de parcours</legend>
+<label for="nfa016">Web côté client</label>
+<input type="checkbox" name="ue" id="nfa016" /> <br/>
+<label for="nfa017">Web côté serveur</label>
+<input type="checkbox" name="ue" id="nfa017" /> <br/>
+<label for="nfa021">Projet serveur</label>
+<input type="checkbox" name="ue" id="nfa021" checked="checked" /> <br/>		
+</fieldset>
+
+<fieldset>
+<legend>radio</legend>
+	<label for="rad-1">Rad</label>
+	
+	<select name="list1[]" id="liste" size="3" multiple="multiple">
+	<option value="a1">un</option>
+	<option value="a2">deux</option>
+	<option value="a3" selected="selected">trois</option>
+	</select>
+</fieldset>
+
+<fieldset>
+	<label for="pays"> Choisir le pays</label>
+	<select name="pays" id="pays">
+		<optgroup label="Europe">
+		<option value="fr">France</option>
+		<option value="es">Espagne</option>
+		<option value="be">Belgique</option>
+		</optgroup>
+		
+	</select>
+</fieldset>
+
+</form>
+
+
+</body>
+</html>
